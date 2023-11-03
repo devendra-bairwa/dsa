@@ -10,6 +10,7 @@ void insertionsort(int arr[],int n)
         {
             swap(arr[j],arr[j-1]);
             j--;
+            
         }
     }
 
@@ -42,7 +43,8 @@ int main(){
     }
     cout<<endl;
 
-
+// int arr[]={5,4,6,1,3,2};
+// int n=6;
    insertionsort(arr,n);
 
     return 0;
